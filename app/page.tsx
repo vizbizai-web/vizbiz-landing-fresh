@@ -150,6 +150,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* RRF Secret Sauce Section - NEW USP */}
+      <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-24 bg-zinc-950 border-y border-zinc-800">
+        <div className="max-w-4xl mx-auto">
+          <div className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded mb-6">
+            <span className="font-bold text-sm tracking-wider">🧠 PROPRIETARY TECHNOLOGY</span>
+          </div>
+          
+          <h3 className="text-4xl md:text-5xl lg:text-6xl mb-6 uppercase font-black">
+            THE RRF SECRET<br />
+            <span className="text-green-500">NOBODY ELSE KNOWS</span>
+          </h3>
+
+          <div className="bg-zinc-900 border border-zinc-700 rounded-lg p-8 mb-8">
+            <p className="text-lg text-gray-300 mb-4">
+              We reverse-engineered how ChatGPT actually decides who to cite.
+            </p>
+            
+            <p className="text-white font-bold text-xl mb-4">
+              It&apos;s not about ranking #1. It&apos;s about RRF — Reciprocal Rank Fusion.
+            </p>
+
+            <p className="text-gray-300 mb-6">
+              ChatGPT runs 20+ different searches. Then it fuses the results. 
+              The dealerships that appear across <span className="text-white font-bold">multiple contexts</span> get cited.
+              The ones who only rank for &quot;car dealership&quot;? Ignored.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-4 text-center">
+              <div className="bg-black p-4 rounded border border-zinc-800">
+                <p className="text-3xl font-bold text-green-500">20+</p>
+                <p className="text-sm text-gray-400">Query Contexts Analyzed</p>
+              </div>
+              <div className="bg-black p-4 rounded border border-zinc-800">
+                <p className="text-3xl font-bold text-green-500">RRF</p>
+                <p className="text-sm text-gray-400">Citation Algorithm</p>
+              </div>
+              <div className="bg-black p-4 rounded border border-zinc-800">
+                <p className="text-3xl font-bold text-green-500">100%</p>
+                <p className="text-sm text-gray-400">Proprietary Method</p>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-xl text-gray-300 text-center">
+            <span className="text-white font-bold">99% of agencies</span> focus on traditional SEO. 
+            We focus on <span className="text-green-500 font-bold">multi-context AI visibility</span>. 
+            That&apos;s why our clients get cited by ChatGPT while competitors chase Google rankings.
+          </p>
+        </div>
+      </section>
+
       {/* CTA Form Section */}
       <section id="cta-form" className="px-4 sm:px-6 lg:px-8 py-16 md:py-24 bg-gradient-to-b from-red-950/30 to-black">
         <div className="max-w-4xl mx-auto text-center">
@@ -157,8 +208,12 @@ export default function Home() {
             Ready to Dominate AI Search?
           </h3>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-8">
+          <p className="text-xl md:text-2xl text-gray-300 mb-4">
             Get your FREE AVI Score and see exactly where you stand.
+          </p>
+          
+          <p className="text-lg text-green-500 font-semibold mb-8">
+            Includes RRF Citation Analysis — a $500 value, yours free.
           </p>
 
           <form className="max-w-xl mx-auto">
