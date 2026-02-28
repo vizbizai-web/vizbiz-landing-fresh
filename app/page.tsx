@@ -130,7 +130,7 @@ export default function Home() {
               
               <div className="space-y-4">
                 <div className="opacity-50">
-                  <p className="text-sm text-gray-500 mb-1">BEFORE (RIP 2023)</p>
+                  <p className="text-sm text-gray-500 mb-1">BEFORE (RIP 2025)</p>
                   <div className="bg-zinc-800 p-4 rounded">
                     <p className="text-gray-400">Google Search → 10 Blue Links → Customer Chooses</p>
                   </div>
@@ -139,7 +139,7 @@ export default function Home() {
                 <div className="text-4xl text-center text-red-600">↓</div>
 
                 <div>
-                  <p className="text-sm text-red-400 mb-1">NOW (2025)</p>
+                  <p className="text-sm text-red-400 mb-1">NOW (2026)</p>
                   <div className="bg-red-950/30 border border-red-600/50 p-4 rounded">
                     <p className="text-white font-semibold">AI Search → ONE Curated Answer → Winner Takes All</p>
                   </div>
