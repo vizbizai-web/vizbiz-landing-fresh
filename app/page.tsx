@@ -7,11 +7,11 @@ export default function Home() {
           <span className="mx-8 font-bold">🚨 BREAKING: AI Search Just Killed Traditional SEO</span>
           <span className="mx-8 font-bold">⚡ URGENT: Dealerships Losing 40% of Traffic to AI Overviews</span>
           <span className="mx-8 font-bold">🔥 WARNING: Your Competitors Are Already Adapting</span>
-          <span className="mx-8 font-bold">💀 REALITY CHECK: If You're Not in AI Search, You Don't Exist</span>
+          <span className="mx-8 font-bold">💀 REALITY CHECK: If You&apos;re Not in AI Search, You Don&apos;t Exist</span>
           <span className="mx-8 font-bold">🚨 BREAKING: AI Search Just Killed Traditional SEO</span>
           <span className="mx-8 font-bold">⚡ URGENT: Dealerships Losing 40% of Traffic to AI Overviews</span>
           <span className="mx-8 font-bold">🔥 WARNING: Your Competitors Are Already Adapting</span>
-          <span className="mx-8 font-bold">💀 REALITY CHECK: If You're Not in AI Search, You Don't Exist</span>
+          <span className="mx-8 font-bold">💀 REALITY CHECK: If You&apos;re Not in AI Search, You Don&apos;t Exist</span>
         </div>
       </div>
 
