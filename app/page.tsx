@@ -236,6 +236,150 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section id="faq" className="px-4 sm:px-6 lg:px-8 py-16 md:py-24 bg-zinc-950">
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-4xl md:text-5xl lg:text-6xl mb-4 uppercase font-black text-center">
+            FREQUENTLY ASKED QUESTIONS
+          </h3>
+          <p className="text-gray-400 text-center mb-12 text-lg">
+            Haven&apos;t found what you&apos;re looking for? <a href="mailto:contact@vizbiz.ai" className="text-red-500 hover:underline">Send us an email</a>
+          </p>
+
+          <div className="space-y-4">
+            {/* FAQ 1 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">I don&apos;t know anything about AI search. Can you still help me?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  Absolutely. We built Vizbiz specifically for car dealers, not tech experts. You don&apos;t need to understand RRF algorithms or AI models—that&apos;s our job. You get a simple PDF report showing exactly where you stand and what to do. We handle the technical work, you focus on selling cars.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 2 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">What is RRF and why does it matter?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  RRF = Reciprocal Rank Fusion. It&apos;s how ChatGPT decides who to cite. Instead of ranking #1 for one keyword, you need to appear across 20+ different conversation contexts. We reverse-engineered this algorithm. Most agencies don&apos;t even know RRF exists—which is why our clients get cited and theirs don&apos;t.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 3 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">Is AI search just a fad? Should I wait?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  AI search isn&apos;t coming—it&apos;s here. 73% of car buyers now use AI tools for research. ChatGPT has 200M+ users. Perplexity just raised $73M. This is the biggest shift in search since Google launched. The dealerships that adapt now will dominate for the next decade. Those who wait? They&apos;ll spend 2026 playing catch-up.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 4 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">How do I know this actually works?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  Two ways: (1) See our case studies—dealerships that increased AI citations from 3 to 15 contexts in 60 days, resulting in 23% more walk-ins. (2) Our 30-day guarantee—if your RRF score doesn&apos;t improve, you don&apos;t pay. We&apos;re that confident.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 5 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">What exactly do I get in the AVI audit?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  You get a comprehensive PDF report with: (1) Your AVI Score (0-100) broken into 6 categories, (2) RRF Citation Heat Map showing 20+ query contexts, (3) Competitor analysis revealing where they dominate, (4) Specific gaps where you&apos;re invisible, (5) Prioritized action plan. Plus a 30-minute strategy call to review findings.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 6 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">What do I need to do? I&apos;m busy running a dealership.</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  Almost nothing. We handle the entire audit. If you choose Citation Hosting, we create and host all content. You just approve the strategy. Most clients spend 30 minutes per month reviewing results—everything else is done for you.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 7 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">How is this faster than traditional SEO?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  Traditional SEO takes 3-6 months to see movement. Our Citation Hosting gets you live in 48 hours and cited by AI within 1-2 weeks. Why? Because we&apos;re not trying to game Google&apos;s algorithm—we&apos;re engineering AI citations directly. While competitors wait months for rankings, you&apos;ll already be cited by ChatGPT, Claude, and Perplexity.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 8 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">Do you just give me a report, or do you actually fix the problem?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  Both. The AVI audit shows you exactly what&apos;s wrong. Then our Citation Hosting service actually BUILDS the citations that get you mentioned by AI. We&apos;re not consultants—we&apos;re builders. While other agencies hand you a to-do list, we hand you results.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 9 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">Why is this more expensive than [competitor]?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  Local Dominator charges $59/month for a dashboard that shows you problems. We charge $297/month to actually SOLVE them. They&apos;re a tool—we&apos;re a service. They track AI visibility—we create it. If you want DIY, use them. If you want results without becoming an AI expert, use us.
+                </div>
+              </details>
+            </div>
+
+            {/* FAQ 10 */}
+            <div className="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+              <details className="group">
+                <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                  <span className="text-xl font-bold text-white">What if I want to cancel?</span>
+                  <span className="text-red-500 text-2xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-300 leading-relaxed">
+                  You own all content we create. If you cancel Citation Hosting, we transfer everything to your infrastructure within 14 days. No hostage-taking. We earn your business monthly by delivering results, not by locking you in.
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="px-4 sm:px-6 lg:px-8 py-12 border-t border-zinc-800">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
