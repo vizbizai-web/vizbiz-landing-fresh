@@ -15,6 +15,43 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Header Navigation */}
+      <header className="bg-black border-b border-zinc-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            {/* Phone Number */}
+            <div className="flex items-center gap-2 text-white">
+              <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+              </svg>
+              <span className="font-semibold">1-888-VIZBIZ-1</span>
+            </div>
+            
+            {/* Logo */}
+            <div className="flex items-center gap-2">
+              <span className="text-red-500 text-3xl">⚡</span>
+              <span className="text-2xl font-black tracking-tight">
+                <span className="text-white">VIZ</span>
+                <span className="text-red-500">BIZ</span>
+              </span>
+            </div>
+            
+            {/* Menu */}
+            <div className="flex items-center gap-4">
+              <a href="#faq" className="text-gray-300 hover:text-white transition-colors hidden md:block">FAQ</a>
+              <a href="#cta-form" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded font-semibold transition-colors">
+                Get Started
+              </a>
+              <button className="text-white md:hidden">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="px-4 sm:px-6 lg:px-8 pt-12 pb-20 md:pt-20 md:pb-32">
         <div className="max-w-6xl mx-auto">
