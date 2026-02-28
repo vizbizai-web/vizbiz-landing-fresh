@@ -388,7 +388,7 @@ export default function Home() {
             <span className="font-bold text-xl">VizBiz</span>
           </div>
           <p className="text-gray-500 text-sm">
-            © 2025 VizBiz. AI Visibility Intelligence for Car Dealerships.
+            © 2026 VizBiz. AI Visibility Intelligence for Car Dealerships.
           </p>
         </div>
       </footer>
