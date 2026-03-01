@@ -351,6 +351,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing Section with Free Tier */}
+      <section id="pricing" className="px-4 sm:px-6 lg:px-8 py-16 md:py-24 bg-black">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h3 className="text-4xl md:text-5xl lg:text-6xl mb-4 uppercase font-black">
+              CHOOSE YOUR PLAN
+            </h3>
+            <p className="text-xl text-gray-400">Start free. Scale as you grow. Cancel anytime.</p>
+          </div>
+
+          {/* Free Tier - Lead Magnet */}
+          <div className="bg-zinc-900 border border-zinc-700 rounded-lg p-8 mb-8 text-center">
+            <div className="inline-block bg-green-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">FREE</div>
+            <h4 className="text-2xl font-bold text-white mb-2">AVI Quick Score</h4>
+            <p className="text-4xl font-black text-white mb-4">$0</p>
+            <p className="text-gray-400 mb-6">No credit card required</p>
+            <ul className="text-left text-gray-300 space-y-2 mb-8 max-w-md mx-auto">
+              <li className="flex items-center gap-2"><span className="text-green-500">✓</span> Basic RRF analysis (5 queries)</li>
+              <li className="flex items-center gap-2"><span className="text-green-500">✓</span> AVI Score (0-100)</li>
+              <li className="flex items-center gap-2"><span className="text-green-500">✓</span> 1-page summary report</li>
+              <li className="flex items-center gap-2"><span className="text-green-500">✓</span> Email delivery</li>
+            </ul>
+            <button className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 rounded transition-colors">
+              GET FREE SCORE →
+            </button>
+          </div>
+
+          {/* Paid Tiers */}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Basic Tier */}
+            <div className="bg-zinc-900 border border-zinc-700 rounded-lg p-8">
+              <h4 className="text-2xl font-bold text-white mb-2">Citation Accelerator</h4>
+              <div className="flex items-baseline gap-2 mb-4">
+                <span className="text-4xl font-black text-white">$297</span>
+                <span className="text-gray-400">/month</span>
+              </div>
+              <p className="text-sm text-gray-400 mb-6">+ $1,500 setup</p>
+              <ul className="text-gray-300 space-y-3 mb-8">
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> 5 hosted citations</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> Monthly updates</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> RRF tracking dashboard</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> Weekly reports</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> Email support</li>
+              </ul>
+              <button className="w-full border-2 border-red-600 text-red-500 hover:bg-red-600 hover:text-white font-bold py-4 rounded transition-colors">
+                START ACCELERATING →
+              </button>
+            </div>
+
+            {/* Pro Tier - Most Popular */}
+            <div className="bg-zinc-900 border-2 border-red-600 rounded-lg p-8 relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</div>
+              <h4 className="text-2xl font-bold text-white mb-2">AI Visibility Partner</h4>
+              <div className="flex items-baseline gap-2 mb-4">
+                <span className="text-4xl font-black text-white">$697</span>
+                <span className="text-gray-400">/month</span>
+              </div>
+              <p className="text-sm text-gray-400 mb-6">+ $2,500 setup</p>
+              <ul className="text-gray-300 space-y-3 mb-8">
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> 15 hosted citations</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> Weekly updates</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> Competitor monitoring</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> Strategy calls</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> Priority support</li>
+                <li className="flex items-center gap-2"><span className="text-red-500">✓</span> 30-day money-back guarantee</li>
+              </ul>
+              <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded transition-colors">
+                BECOME A PARTNER →
+              </button>
+            </div>
+          </div>
+
+          {/* Enterprise */}
+          <div className="mt-8 text-center">
+            <p className="text-gray-400">Need more? <span className="text-white font-semibold">Enterprise</span> plans available for dealer groups.</p>
+            <a href="#cta-form" className="text-red-500 hover:underline">Contact us for custom pricing →</a>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section id="faq" className="px-4 sm:px-6 lg:px-8 py-16 md:py-24 bg-zinc-950">
         <div className="max-w-4xl mx-auto">
