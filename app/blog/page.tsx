@@ -1,7 +1,4 @@
 import Link from 'next/link';
-import { readFileSync, readdirSync } from 'fs';
-import { join } from 'path';
-import matter from 'gray-matter';
 
 interface BlogPost {
   slug: string;
@@ -11,40 +8,32 @@ interface BlogPost {
   readingTime: string;
 }
 
-function getBlogPosts(): BlogPost[] {
-  const postsDirectory = join(process.cwd(), 'app/blog');
-  const files = readdirSync(postsDirectory).filter(file => file.endsWith('.md'));
-  
-  const posts = files.map(file => {
-    const slug = file.replace('.md', '');
-    const fullPath = join(postsDirectory, file);
-    const fileContents = readFileSync(fullPath, 'utf8');
-    const { data, content } = matter(fileContents);
-    
-    // Extract excerpt from content (first 150 characters)
-    const excerpt = content
-      .replace(/^#.*$/m, '') // Remove title
-      .replace(/\*\*/g, '') // Remove bold
-      .replace(/\n/g, ' ')
-      .trim()
-      .slice(0, 150) + '...';
-    
-    return {
-      slug,
-      title: data.title || slug.replace(/-/g, ' '),
-      date: data.date || new Date().toISOString().split('T')[0],
-      excerpt,
-      readingTime: data.readingTime || '5 min read',
-    };
-  });
-  
-  // Sort by date (newest first)
-  return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
+// Static blog posts data
+const blogPosts: BlogPost[] = [
+  {
+    slug: 'ai-visibility-2026-guide',
+    title: 'How AI Search Visibility Works for Car Dealerships in 2026',
+    date: 'March 10, 2026',
+    excerpt: 'The way people find car dealerships is changing forever. Car buyers are no longer starting their search on Google. They are asking ChatGPT: "What\'s the best Toyota dealership near Oakville?" And if your dealership isn\'t in the AI\'s training data, you don\'t exist...',
+    readingTime: '5 min read',
+  },
+  {
+    slug: 'ai-visibility-guide',
+    title: 'The Complete Guide to AI Visibility for Car Dealerships',
+    date: 'March 1, 2026',
+    excerpt: 'Learn how to optimize your dealership for AI search engines like ChatGPT, Perplexity, and Claude. Discover the strategies that put you in front of customers when they ask AI for recommendations...',
+    readingTime: '8 min read',
+  },
+  {
+    slug: 'rrf-algorithm-guide',
+    title: 'Understanding the RRF Algorithm: How AI Ranks Local Businesses',
+    date: 'February 28, 2026',
+    excerpt: 'The RRF (Reciprocal Rank Fusion) algorithm determines which businesses AI recommends. Learn how it works and how to optimize your dealership\'s visibility score...',
+    readingTime: '6 min read',
+  },
+];
 
 export default function BlogPage() {
-  const posts = getBlogPosts();
-  
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Header */}
@@ -87,13 +76,13 @@ export default function BlogPage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8">
-            {posts.map((post) => (
+            {blogPosts.map((post) => (
               <article
                 key={post.slug}
                 className="bg-zinc-900 border border-zinc-800 rounded-lg p-6 hover:border-red-500 transition-colors"
               >
                 <Link href={`/blog/${post.slug}`}>
-                  <h2 className="text-2xl font-bold text-white mb-2 hover:text-red-500 transition-colors capitalize">
+                  <h2 className="text-2xl font-bold text-white mb-2 hover:text-red-500 transition-colors">
                     {post.title}
                   </h2>
                 </Link>
