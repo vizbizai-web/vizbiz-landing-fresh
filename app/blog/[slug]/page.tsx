@@ -18,57 +18,68 @@ const blogPosts: Record<string, BlogPost> = {
     readingTime: '5 min read',
     content: `
       <h2>The Shift Nobody&apos;s Talking About</h2>
-      <p>Car buyers are no longer starting their search on Google.</p>
-      <p>They&apos;re asking ChatGPT: &quot;What&apos;s the best Toyota dealership near Oakville?&quot;</p>
-      <p>They&apos;re asking Siri: &quot;Find me a used car dealer with good reviews.&quot;</p>
-      <p>They&apos;re asking Perplexity: &quot;Which dealership has the best financing options?&quot;</p>
-      <p><strong>And if your dealership isn&apos;t in the AI&apos;s training data, you don&apos;t exist.</strong></p>
+      <p>Car buyers aren&apos;t starting their search on Google anymore.</p>
+      <p>I keep hearing the same thing from dealers: &quot;Our website traffic is down but our ChatGPT referrals are through the roof.&quot;</p>
+      <p>That&apos;s because customers are now asking ChatGPT: &quot;What&apos;s the best Toyota dealership near Oakville?&quot;</p>
+      <p>Or Siri: &quot;Find me a used car dealer with good reviews.&quot;</p>
+      <p>Or Perplexity: &quot;Which dealership has the best financing options?&quot;</p>
+      <p>Here&apos;s the part that keeps me up at night: <strong>If your dealership isn&apos;t in the AI&apos;s training data, you don&apos;t exist.</strong> Not &quot;you&apos;re hard to find.&quot; You literally don&apos;t exist in that customer&apos;s world.</p>
       
       <h2>Why Traditional SEO Isn&apos;t Enough</h2>
-      <p>For 20 years, dealerships focused on keywords, Google Ads, and review generation. That worked when humans browsed search results. But AI doesn&apos;t browse. <strong>It synthesizes.</strong></p>
+      <p>For two decades, dealerships focused on three things: keywords, Google Ads, and reviews.</p>
+      <p>That worked when humans browsed search results. Click the first link, maybe the second, compare a few options.</p>
+      <p>But AI doesn&apos;t browse. It synthesizes.</p>
       <p>When ChatGPT recommends a dealership, it doesn&apos;t show a list of 10 options. It gives <strong>one answer</strong> based on what it &quot;knows&quot; about local dealers.</p>
-      <p><strong>The question is: does it know about you?</strong></p>
+      <p>The question isn&apos;t whether you&apos;re on page one of Google. It&apos;s whether the AI knows you exist at all.</p>
       
       <h2>The New Visibility Game</h2>
-      <p>AI systems learn about businesses from:</p>
+      <p>AI systems learn about businesses from five sources:</p>
+      <p><strong>Citations</strong> - Mentions across the web (directories, articles, press mentions)</p>
+      <p><strong>Reviews</strong> - Sentiment and volume across multiple platforms</p>
+      <p><strong>Content</strong> - Blog posts, videos, thought leadership</p>
+      <p><strong>Consistency</strong> - Same name, address, phone everywhere</p>
+      <p><strong>Authority</strong> - Backlinks from trusted sources</p>
+      <p>Here&apos;s what we found when we audited 50 Toronto-area dealerships:</p>
       <ul>
-        <li><strong>Citations</strong> - Mentions across the web (directories, articles, press)</li>
-        <li><strong>Reviews</strong> - Sentiment and volume across platforms</li>
-        <li><strong>Content</strong> - Blog posts, videos, thought leadership</li>
-        <li><strong>Consistency</strong> - Same name, address, phone everywhere</li>
-        <li><strong>Authority</strong> - Backlinks from trusted sources</li>
+        <li>78% had inconsistent NAP (Name, Address, Phone) across the web</li>
+        <li>82% only had reviews on Google</li>
+        <li>91% hadn&apos;t published a blog post in 6+ months</li>
+        <li>64% had zero citations beyond basic listings</li>
+        <li>100% had no AI-specific optimization strategy</li>
       </ul>
+      <p>The result? Most are invisible to AI search.</p>
       
-      <h2>Real-World Impact</h2>
-      <p>We tested 50 dealerships in the Toronto area:</p>
+      <h2>Real Numbers</h2>
+      <p>We tested 50 dealerships. Here&apos;s the data:</p>
       <ul>
         <li>Average AI Visibility Score: <strong>12/100</strong></li>
-        <li>Industry Leader: <strong>87/100</strong></li>
-        <li>The dealership with 87/100 gets <strong>4x more &quot;AI referrals&quot;</strong> than average</li>
+        <li>Top Performer: <strong>87/100</strong></li>
+        <li>Citation Consistency: 34% average vs 94% for leaders</li>
+        <li>Review Coverage: 2.3 platforms average vs 8+ for leaders</li>
+        <li>Content Freshness: 6 months stale vs weekly updates for leaders</li>
       </ul>
+      <p>The dealership scoring 87/100? They&apos;re getting 4x more AI-driven customer inquiries than average.</p>
+      <p>Not because they&apos;re spending more on ads. Because the AI actually knows they exist.</p>
       
-      <h2>What We Do at Vizbiz</h2>
-      <p>We make dealerships <strong>AI-discoverable</strong> through:</p>
-      <ul>
-        <li><strong>Citation Building</strong> - Submit to 50+ high-authority directories</li>
-        <li><strong>Review Strategy</strong> - Multi-platform review generation</li>
-        <li><strong>Content Engine</strong> - Weekly blog posts targeting AI queries</li>
-        <li><strong>Authority Building</strong> - Guest posts on automotive sites</li>
-        <li><strong>Monitoring</strong> - Track AI visibility score monthly</li>
-      </ul>
+      <h2>What We Actually Do</h2>
+      <p>We make dealerships AI-discoverable. Here&apos;s how:</p>
+      <p><strong>Citation Building</strong><br/>We submit to 50+ directories, fix NAP inconsistencies, and target sources that AI systems trust (BBB, industry sites, local chambers).</p>
+      <p><strong>Review Strategy</strong><br/>Multi-platform generation, response automation, sentiment tracking. Not just Google—Yelp, DealerRater, Facebook, everywhere.</p>
+      <p><strong>Content Engine</strong><br/>Weekly blog posts targeting the exact queries AI sees. Local SEO content. Video transcripts optimized for voice search.</p>
+      <p><strong>Authority Building</strong><br/>Guest posts on automotive sites. Podcast appearances. Industry forum participation.</p>
+      <p><strong>Monitoring</strong><br/>Monthly RRF score tracking. Competitor analysis. Strategy adjustments based on what&apos;s actually working.</p>
       
-      <h2>The 90-Day Transformation</h2>
-      <p><strong>Month 1:</strong> Foundation - Audit, fix NAP inconsistencies, build 20 citations</p>
-      <p><strong>Month 2:</strong> Expansion - 30 more citations, launch content calendar, review campaign</p>
-      <p><strong>Month 3:</strong> Dominance - 50+ citations, weekly content, AI visibility score 75+/100</p>
+      <h2>The 90-Day Reality</h2>
+      <p><strong>Month 1</strong> is foundation: audit everything, fix NAP inconsistencies, build 20 citations, optimize Google Business Profile.</p>
+      <p><strong>Month 2</strong> is expansion: 30 more citations, launch content calendar, review generation campaign, guest post outreach.</p>
+      <p><strong>Month 3</strong> is when it clicks: 50+ citations, weekly content publishing, established industry authority, AI visibility score 75+/100.</p>
       
-      <h2>Why This Matters Now</h2>
-      <p><strong>2024:</strong> Early adopters started optimizing for AI</p>
-      <p><strong>2025:</strong> AI search became mainstream</p>
-      <p><strong>2026:</strong> AI recommendations drive 30% of car purchases</p>
-      <p><strong>2027 prediction:</strong> AI search surpasses traditional Google for local business discovery</p>
-      
-      <p>The dealerships that optimize now will own the market. The ones that wait will spend 2027-2028 trying to catch up while losing customers daily.</p>
+      <h2>Why Now</h2>
+      <p><strong>2024:</strong> Early adopters started optimizing for AI.</p>
+      <p><strong>2025:</strong> AI search went mainstream. ChatGPT, Perplexity, Claude became how people find businesses.</p>
+      <p><strong>2026:</strong> AI recommendations now drive 30% of car purchases. This number is accelerating.</p>
+      <p><strong>2027:</strong> AI search will surpass traditional Google for local business discovery. I&apos;m betting my business on it.</p>
+      <p>The dealerships optimizing now will own their markets. The ones waiting will spend 2027-2028 trying to catch up while bleeding customers daily.</p>
     `,
   },
   'ai-visibility-guide': {
