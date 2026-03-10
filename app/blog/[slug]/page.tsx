@@ -24,9 +24,9 @@ const blogPosts: Record<string, BlogPost> = {
       <p>They&apos;re asking Perplexity: &quot;Which dealership has the best financing options?&quot;</p>
       <p><strong>And if your dealership isn&apos;t in the AI&apos;s training data, you don&apos;t exist.</strong></p>
       
-      <h2>Why Traditional SEO Isn't Enough</h2>
-      <p>For 20 years, dealerships focused on keywords, Google Ads, and review generation. That worked when humans browsed search results. But AI doesn't browse. <strong>It synthesizes.</strong></p>
-      <p>When ChatGPT recommends a dealership, it doesn't show a list of 10 options. It gives <strong>one answer</strong> based on what it "knows" about local dealers.</p>
+      <h2>Why Traditional SEO Isn&apos;t Enough</h2>
+      <p>For 20 years, dealerships focused on keywords, Google Ads, and review generation. That worked when humans browsed search results. But AI doesn&apos;t browse. <strong>It synthesizes.</strong></p>
+      <p>When ChatGPT recommends a dealership, it doesn&apos;t show a list of 10 options. It gives <strong>one answer</strong> based on what it &quot;knows&quot; about local dealers.</p>
       <p><strong>The question is: does it know about you?</strong></p>
       
       <h2>The New Visibility Game</h2>
@@ -44,7 +44,7 @@ const blogPosts: Record<string, BlogPost> = {
       <ul>
         <li>Average AI Visibility Score: <strong>12/100</strong></li>
         <li>Industry Leader: <strong>87/100</strong></li>
-        <li>The dealership with 87/100 gets <strong>4x more "AI referrals"</strong> than average</li>
+        <li>The dealership with 87/100 gets <strong>4x more &quot;AI referrals&quot;</strong> than average</li>
       </ul>
       
       <h2>What We Do at Vizbiz</h2>
@@ -110,70 +110,6 @@ const blogPosts: Record<string, BlogPost> = {
     content: `
       <h2>What is RRF?</h2>
       <p>RRF (Reciprocal Rank Fusion) is the algorithm that determines which businesses AI systems recommend when users ask questions like &quot;What&apos;s the best car dealership near me?&quot;</p>
-      
-      <h2>How RRF Works</h2>
-      <p>The algorithm combines multiple ranking signals:</p>
-      <ul>
-        <li><strong>Citation Rank</strong> - How many authoritative sources mention your business</li>
-        <li><strong>Review Rank</strong> - Volume and sentiment of reviews across platforms</li>
-        <li><strong>Content Rank</strong> - Freshness and relevance of your content</li>
-        <li><strong>Authority Rank</strong> - Quality of backlinks to your website</li>
-        <li><strong>Consistency Rank</strong> - NAP consistency across the web</li>
-      </ul>
-      
-      <h2>Scoring System</h2>
-      <p>RRF scores range from 0-100:</p>
-      <ul>
-        <li><strong>0-25:</strong> Invisible to AI - not recommended</li>
-        <li><strong>26-50:</strong> Low visibility - rarely recommended</li>
-        <li><strong>51-75:</strong> Moderate visibility - sometimes recommended</li>
-        <li><strong>76-90:</strong> High visibility - often recommended</li>
-        <li><strong>91-100:</strong> Dominant - primary recommendation</li>
-      </ul>
-      
-      <h2>Improving Your RRF Score</h2>
-      <p>Each component can be optimized through specific strategies. The key is consistent effort across all factors, not just focusing on one area.</p>
-    `,
-  },
-  'ai-visibility-guide': {
-    slug: 'ai-visibility-guide',
-    title: 'The Complete Guide to AI Visibility for Car Dealerships',
-    date: 'March 1, 2026',
-    readingTime: '8 min read',
-    content: `
-      <h2>What is AI Visibility?</h2>
-      <p>AI visibility is the measure of how likely your dealership is to be recommended by AI search engines like ChatGPT, Perplexity, Claude, and voice assistants like Siri and Alexa.</p>
-      
-      <h2>Why It Matters</h2>
-      <p>Traditional SEO optimizes for Google search results. AI visibility optimizes for AI recommendations. When a customer asks ChatGPT &quot;What&apos;s the best car dealership near me?&quot; - will your dealership be the answer?</p>
-      
-      <h2>The RRF Score</h2>
-      <p>We measure AI visibility using the RRF (Reciprocal Rank Fusion) algorithm, which combines multiple factors:</p>
-      <ul>
-        <li>Citation consistency across the web</li>
-        <li>Review volume and sentiment</li>
-        <li>Content freshness and relevance</li>
-        <li>Backlink authority</li>
-        <li>Local relevance signals</li>
-      </ul>
-      
-      <h2>How to Improve Your Score</h2>
-      <p>1. <strong>Audit Your Current State</strong> - Know your baseline RRF score</p>
-      <p>2. <strong>Fix NAP Inconsistencies</strong> - Ensure Name, Address, Phone are identical everywhere</p>
-      <p>3. <strong>Build Citations</strong> - Submit to 50+ directories</p>
-      <p>4. <strong>Generate Reviews</strong> - Multi-platform review strategy</p>
-      <p>5. <strong>Create Content</strong> - Weekly blog posts targeting AI queries</p>
-      <p>6. <strong>Monitor Progress</strong> - Track RRF score monthly</p>
-    `,
-  },
-  'rrf-algorithm-guide': {
-    slug: 'rrf-algorithm-guide',
-    title: 'Understanding the RRF Algorithm: How AI Ranks Local Businesses',
-    date: 'February 28, 2026',
-    readingTime: '6 min read',
-    content: `
-      <h2>What is RRF?</h2>
-      <p>RRF (Reciprocal Rank Fusion) is the algorithm that determines which businesses AI systems recommend when users ask questions like "What's the best car dealership near me?"</p>
       
       <h2>How RRF Works</h2>
       <p>The algorithm combines multiple ranking signals:</p>
@@ -266,7 +202,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               Ready to Improve Your AI Visibility?
             </h3>
             <p className="text-gray-400 mb-6">
-              Get a free audit of your dealership's AI search presence and discover exactly how to outrank competitors.
+              Get a free audit of your dealership&apos;s AI search presence and discover exactly how to outrank competitors.
             </p>
             <Link
               href="/#cta-form"
