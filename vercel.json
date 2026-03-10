@@ -11,12 +11,16 @@
   ],
   "routes": [
     {
+      "src": "/blog",
+      "dest": "/blog.html"
+    },
+    {
       "src": "/blog/(.*)",
       "dest": "/blog/$1.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/$1.html"
     }
   ]
 }
