@@ -45,6 +45,7 @@ export default function Home() {
             {/* Menu */}
             <div className="flex items-center gap-4">
               <a href="#faq" className="text-gray-300 hover:text-white transition-colors hidden md:block">FAQ</a>
+              <a href="/blog" className="text-gray-300 hover:text-white transition-colors hidden md:block">Blog</a>
               <a href="#cta-form" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded font-semibold transition-colors hidden md:block">
                 Get Started
               </a>
